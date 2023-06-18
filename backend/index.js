@@ -6,7 +6,6 @@ const app = express();
 
 app.use(cors())
 app.use(express.json())
-app.use(express.static('public'))
 app.use(UserRoute)
 
 app.listen(5000, console.log('server up and running'));

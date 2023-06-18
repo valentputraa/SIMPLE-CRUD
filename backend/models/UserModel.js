@@ -10,6 +10,10 @@ const User = db.define('users', {
         type : DataTypes.STRING,
         allowNull: false
     },
+    address : {
+        type : DataTypes.STRING,
+        allowNull: false
+    },
     email : {
         type : DataTypes.STRING,
         allowNull: false
@@ -19,3 +23,7 @@ const User = db.define('users', {
 })
 
 export default User;
+
+(async () => {
+    await db.sync()
+})();
