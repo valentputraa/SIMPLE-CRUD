@@ -1,3 +1,4 @@
+
 GET http://localhost:5000/users
 
 ###
@@ -8,7 +9,22 @@ post http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name": "valent",
+    "name": "valent2",
     "telephone": "0832138232",
+    "email": "valent@example.com",
+    "address": "123 Main St"
+}
+
+###
+patch http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "name": "valent updated",
+    "telephone": "0832138232",
+    "address": "jl.golf wengga2",
     "email": "valent@example.com"
 }
+
+###
+DELETE  http://localhost:5000/users/8
