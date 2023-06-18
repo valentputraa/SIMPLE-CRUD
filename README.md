@@ -1,2 +1,2 @@
-SIMPLE-CRUD
-saya membuat crud sederhana dengan validasi untuk pembelajaran
+SIMPLE-CRUD MERN
+saya membuat crud sederhana dengan validasi, notifikasi error pagination untuk pembelajaran saya
